@@ -7,8 +7,8 @@
 
 		<div class="col-md-7 col-lg-5 text-black py-md-5 py-lg-5">
 			<h1 class="mt-2 text-center text-md-left" id="myName">Ben Elano</h1>
-			<h3 class="my-3 text-center text-md-left" id="myTitle">“Full Stack Web Developer</h3> 
-			<p class="text-justify landing-text">With expertise in front-end and back-end technologies, capable of designing, building, and maintaining complete web applications from user interface to server and database.”</p>
+			<h3 class="my-3 text-center text-md-left" id="myTitle">Full Stack Web Developer</h3> 
+			<p class="text-justify landing-text">With expertise in front-end and back-end technologies, capable of designing, building, and maintaining complete web applications from user interface to server and database.</p>
 		</div>
 	</div>
 

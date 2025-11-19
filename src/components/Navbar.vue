@@ -1,6 +1,6 @@
 <template>
 	
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="menu">
 	<a href="#landing" class="navbar-brand d-lg-none">Ben Elano</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
 	<span class="navbar-toggler-icon"></span>
