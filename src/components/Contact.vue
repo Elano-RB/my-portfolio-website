@@ -6,7 +6,7 @@
 
     const notyf = new Notyf();
 
-    const WEB3FORMS_ACCESS_KEY = "03e9cd97-d625-4cd1-9508-560c1b30f2b8"
+    const WEB3FORMS_ACCESS_KEY = "6d66c7de-cd4e-4ed0-b149-f06eb1b45357"
 
     const subject = "New message from Portfolio Contact Form";
 
@@ -141,12 +141,9 @@
                 </div>
                 <div class="form-footer">
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/" target="_blank">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s" class="img-fluid rounded m-2" width="30" height="30" id="linkedin"></a>
-                        <a href="https://about.gitlab.com/" target="_blank">
-                                    <img src="https://www.cloudservices.store/site/wp-content/uploads/2020/10/logo-extra-whitespace.png" class="img-fluid rounded m-2" width="30" height="30" id="gitlab"></a>
-                        <a href="https://github.com/" target="_blank">
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZfLuviePOqQJ1yuhvxr80AsqV91Btr2rqZw&s" class="img-fluid rounded m-2" width="30" height="30" id="github"></a>
+                        <a href="www.linkedin.com/in/ben-elano" id="linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://gitlab.com" id="gitlab"><i class="fab fa-gitlab"></i></a>
+                        <a href="https://github.com/Elano-RB" id="github"><i class="fab fa-github"></i></a>
                     </div>
                     <button type="submit" class="submit-btn pl-5 pr-5" :disabled="isLoading">
                         {{isLoading ? "Sending..." : "Submit"}}
