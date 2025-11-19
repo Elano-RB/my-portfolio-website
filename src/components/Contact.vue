@@ -8,7 +8,7 @@
     const notyf = new Notyf();
 
 
-    const WEB3FORMS_ACCESS_KEY = "03e9cd97-d625-4cd1-9508-560c1b30f2b8"
+    const WEB3FORMS_ACCESS_KEY = "6d66c7de-cd4e-4ed0-b149-f06eb1b45357"
 
     const subject = "New message from Portfolio Contact Form";
 
@@ -74,7 +74,7 @@
     } 
 
 
-    const SITE_KEY = '6LdPxREsAAAAAMCLcBfNXJ5VAvxVDljs_Mp_zb6l'
+    const SITE_KEY = '6LeM4REsAAAAAK6fTqoVESATLHmBM3hSrsXOy_Ki'
 
     const recaptchaContainer = ref(null);
     const recaptchaWidgetId = ref(null);
