@@ -132,7 +132,7 @@
 <div class="contact-section">
     <div class="row align-items-center mt-4">
         <div class="col-md-6 map-container">
-            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=centro%20escolar%20university%20manila&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61908.95407180591!2d120.9266308777264!3d14.117879786214003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd777b1ab54c8f%3A0x6ecc514451ce2be8!2sTagaytay%20City%2C%20Cavite!5e0!3m2!1sen!2sph!4v1755864997443!5m2!1sen!2sph" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
         <div class="col-md-6">
             <form @submit.prevent="submitForm">
