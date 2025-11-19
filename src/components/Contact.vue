@@ -48,8 +48,12 @@
 
             const result = await response.json();
 
-            if(result.success) {
+            if (result.success) {
                 console.log(result);
+
+                name.value = "";
+                email.value = "";
+                message.value = "";
 
                 isLoading.value = false;
                 notyf.success("Message Sent!");
@@ -70,7 +74,7 @@
     } 
 
 
-    const SITE_KEY = '6LeM4REsAAAAAK6fTqoVESATLHmBM3hSrsXOy_Ki'
+    const SITE_KEY = '6LdPxREsAAAAAMCLcBfNXJ5VAvxVDljs_Mp_zb6l'
 
     const recaptchaContainer = ref(null);
     const recaptchaWidgetId = ref(null);
@@ -143,9 +147,9 @@
                 </div>
                 <div class="form-footer">
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/charles-babbage-8291a6211/" id="linkedin"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://gitlab.com/cbabbage0991" id="gitlab"><i class="fab fa-gitlab"></i></a>
-                        <a href="https://github.com/cbabbage0991" id="github"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ben-elano/" id="linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://gitlab.com/" id="gitlab"><i class="fab fa-gitlab"></i></a>
+                        <a href="https://github.com/Elano-RB" id="github"><i class="fab fa-github"></i></a>
                     </div>
                     <button type="submit" class="submit-btn pl-5 pr-5" :disabled="isLoading">
                         {{isLoading ? "Sending..." : "Submit"}}
